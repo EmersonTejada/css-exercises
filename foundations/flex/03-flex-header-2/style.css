@@ -2,6 +2,11 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   background: #eee;
@@ -46,3 +51,24 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
